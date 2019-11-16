@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D6CFD6B34FDA1C3876412B8 /* Pods_Fit4Free.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECF9C94E41BD2B939C9532 /* Pods_Fit4Free.framework */; };
+		F285BDEA236FFF7D003FB9E3 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = F285BDE9236FFF7D003FB9E3 /* Database.swift */; };
+		F285BDEC237016CB003FB9E3 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F285BDEB237016CB003FB9E3 /* VideoViewController.swift */; };
+		F2BB304E2354276D00E21D69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB304D2354276D00E21D69 /* AppDelegate.swift */; };
+		F2BB30502354276D00E21D69 /* ExcerciseSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB304F2354276D00E21D69 /* ExcerciseSelectionViewController.swift */; };
+		F2BB30532354276D00E21D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BB30512354276D00E21D69 /* Main.storyboard */; };
+		F2BB30582354276E00E21D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BB30572354276E00E21D69 /* Assets.xcassets */; };
+		F2BB305B2354276E00E21D69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BB30592354276E00E21D69 /* LaunchScreen.storyboard */; };
+		F2BB306323542A9B00E21D69 /* ExcercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB306223542A9B00E21D69 /* ExcercisesViewController.swift */; };
+		F2BB306823545B5600E21D69 /* DifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB306723545B5600E21D69 /* DifficultyViewController.swift */; };
+		FB4515D72370C6E20039CF60 /* ViewControllerDietas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4515D62370C6E20039CF60 /* ViewControllerDietas.swift */; };
+		FB4515D92370C7020039CF60 /* ViewControllerListaDietas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4515D82370C7020039CF60 /* ViewControllerListaDietas.swift */; };
+		FB4515DB2370C9BF0039CF60 /* ViewControllerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4515DA2370C9BF0039CF60 /* ViewControllerProfile.swift */; };
+		FB4515DD2370C9F70039CF60 /* ViewControllerMuestraDieta.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4515DC2370C9F70039CF60 /* ViewControllerMuestraDieta.swift */; };
+		FB4515DF2370CB640039CF60 /* ViewControllerEstadisticas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4515DE2370CB640039CF60 /* ViewControllerEstadisticas.swift */; };
+		FBE4B509237EFEEF00B599B2 /* MuscleGain.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBE4B508237EFEEF00B599B2 /* MuscleGain.plist */; };
+		FBE4B50B237F345300B599B2 /* WeightLoss.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBE4B50A237F345300B599B2 /* WeightLoss.plist */; };
+		FBE4B511237F3C9A00B599B2 /* SugarFree.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBE4B510237F3C9A00B599B2 /* SugarFree.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		480F543F6D78BAF7C8342E9D /* Pods-Fit4Free.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fit4Free.debug.xcconfig"; path = "Target Support Files/Pods-Fit4Free/Pods-Fit4Free.debug.xcconfig"; sourceTree = "<group>"; };
+		4DECF9C94E41BD2B939C9532 /* Pods_Fit4Free.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fit4Free.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A3882D8F7F5908B106E3EB /* Pods-Fit4Free.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fit4Free.release.xcconfig"; path = "Target Support Files/Pods-Fit4Free/Pods-Fit4Free.release.xcconfig"; sourceTree = "<group>"; };
+		F285BDE9236FFF7D003FB9E3 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		F285BDEB237016CB003FB9E3 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		F2BB304A2354276D00E21D69 /* Fit4Free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fit4Free.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BB304D2354276D00E21D69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2BB304F2354276D00E21D69 /* ExcerciseSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcerciseSelectionViewController.swift; sourceTree = "<group>"; };
+		F2BB30522354276D00E21D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2BB30572354276E00E21D69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2BB305A2354276E00E21D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2BB305C2354276E00E21D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BB306223542A9B00E21D69 /* ExcercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcercisesViewController.swift; sourceTree = "<group>"; };
+		F2BB306723545B5600E21D69 /* DifficultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyViewController.swift; sourceTree = "<group>"; };
+		FB4515D62370C6E20039CF60 /* ViewControllerDietas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDietas.swift; sourceTree = "<group>"; };
+		FB4515D82370C7020039CF60 /* ViewControllerListaDietas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerListaDietas.swift; sourceTree = "<group>"; };
+		FB4515DA2370C9BF0039CF60 /* ViewControllerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewControllerProfile.swift; path = Fit4Free/Controller/ViewControllerProfile.swift; sourceTree = SOURCE_ROOT; };
+		FB4515DC2370C9F70039CF60 /* ViewControllerMuestraDieta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewControllerMuestraDieta.swift; path = Fit4Free/Controller/ViewControllerMuestraDieta.swift; sourceTree = SOURCE_ROOT; };
+		FB4515DE2370CB640039CF60 /* ViewControllerEstadisticas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewControllerEstadisticas.swift; path = Fit4Free/Controller/ViewControllerEstadisticas.swift; sourceTree = SOURCE_ROOT; };
+		FBE4B508237EFEEF00B599B2 /* MuscleGain.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MuscleGain.plist; sourceTree = "<group>"; };
+		FBE4B50A237F345300B599B2 /* WeightLoss.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WeightLoss.plist; sourceTree = "<group>"; };
+		FBE4B50E237F3C5300B599B2 /* LowCarbs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = LowCarbs.plist; path = /Users/alumno/Documents/Fit4Free/LowCarbs.plist; sourceTree = "<absolute>"; };
+		FBE4B50F237F3C5C00B599B2 /* LowCarbs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = LowCarbs.plist; path = /Users/alumno/Documents/Fit4Free/LowCarbs.plist; sourceTree = "<absolute>"; };
+		FBE4B510237F3C9A00B599B2 /* SugarFree.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SugarFree.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2BB30472354276D00E21D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6CFD6B34FDA1C3876412B8 /* Pods_Fit4Free.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A8034A568ADEB2E0B7C9939 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				480F543F6D78BAF7C8342E9D /* Pods-Fit4Free.debug.xcconfig */,
+				A3A3882D8F7F5908B106E3EB /* Pods-Fit4Free.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2BB30412354276D00E21D69 = {
+			isa = PBXGroup;
+			children = (
+				FBE4B50E237F3C5300B599B2 /* LowCarbs.plist */,
+				FBE4B510237F3C9A00B599B2 /* SugarFree.plist */,
+				FBE4B50F237F3C5C00B599B2 /* LowCarbs.plist */,
+				FBE4B508237EFEEF00B599B2 /* MuscleGain.plist */,
+				FBE4B50A237F345300B599B2 /* WeightLoss.plist */,
+				F2BB304C2354276D00E21D69 /* Fit4Free */,
+				F2BB304B2354276D00E21D69 /* Products */,
+				8A8034A568ADEB2E0B7C9939 /* Pods */,
+				FF4EABEB0D6D674A5000E3CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2BB304B2354276D00E21D69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2BB304A2354276D00E21D69 /* Fit4Free.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2BB304C2354276D00E21D69 /* Fit4Free */ = {
+			isa = PBXGroup;
+			children = (
+				F2BB304D2354276D00E21D69 /* AppDelegate.swift */,
+				F2BB306623542ADA00E21D69 /* Model */,
+				F2BB306523542ACC00E21D69 /* View */,
+				F2BB306423542AA200E21D69 /* Controller */,
+				F2BB30572354276E00E21D69 /* Assets.xcassets */,
+				F2BB30592354276E00E21D69 /* LaunchScreen.storyboard */,
+				F2BB305C2354276E00E21D69 /* Info.plist */,
+			);
+			path = Fit4Free;
+			sourceTree = "<group>";
+		};
+		F2BB306423542AA200E21D69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2BB306223542A9B00E21D69 /* ExcercisesViewController.swift */,
+				FB4515DE2370CB640039CF60 /* ViewControllerEstadisticas.swift */,
+				FB4515DC2370C9F70039CF60 /* ViewControllerMuestraDieta.swift */,
+				FB4515DA2370C9BF0039CF60 /* ViewControllerProfile.swift */,
+				F2BB306723545B5600E21D69 /* DifficultyViewController.swift */,
+				F2BB304F2354276D00E21D69 /* ExcerciseSelectionViewController.swift */,
+				FB4515D62370C6E20039CF60 /* ViewControllerDietas.swift */,
+				FB4515D82370C7020039CF60 /* ViewControllerListaDietas.swift */,
+				F285BDEB237016CB003FB9E3 /* VideoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2BB306523542ACC00E21D69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2BB30512354276D00E21D69 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2BB306623542ADA00E21D69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F285BDE9236FFF7D003FB9E3 /* Database.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF4EABEB0D6D674A5000E3CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DECF9C94E41BD2B939C9532 /* Pods_Fit4Free.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2BB30492354276D00E21D69 /* Fit4Free */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BB305F2354276E00E21D69 /* Build configuration list for PBXNativeTarget "Fit4Free" */;
+			buildPhases = (
+				F6082A04ABA6CFAC73B49D45 /* [CP] Check Pods Manifest.lock */,
+				F2BB30462354276D00E21D69 /* Sources */,
+				F2BB30472354276D00E21D69 /* Frameworks */,
+				F2BB30482354276D00E21D69 /* Resources */,
+				A4B0DEDFB7CAADEF7EAD2F65 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fit4Free;
+			productName = Fit4Free;
+			productReference = F2BB304A2354276D00E21D69 /* Fit4Free.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2BB30422354276D00E21D69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Jaime Garza";
+				TargetAttributes = {
+					F2BB30492354276D00E21D69 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = F2BB30452354276D00E21D69 /* Build configuration list for PBXProject "Fit4Free" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2BB30412354276D00E21D69;
+			productRefGroup = F2BB304B2354276D00E21D69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2BB30492354276D00E21D69 /* Fit4Free */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2BB30482354276D00E21D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BB305B2354276E00E21D69 /* LaunchScreen.storyboard in Resources */,
+				FBE4B511237F3C9A00B599B2 /* SugarFree.plist in Resources */,
+				F2BB30582354276E00E21D69 /* Assets.xcassets in Resources */,
+				FBE4B50B237F345300B599B2 /* WeightLoss.plist in Resources */,
+				FBE4B509237EFEEF00B599B2 /* MuscleGain.plist in Resources */,
+				F2BB30532354276D00E21D69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4B0DEDFB7CAADEF7EAD2F65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fit4Free/Pods-Fit4Free-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fit4Free/Pods-Fit4Free-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fit4Free/Pods-Fit4Free-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6082A04ABA6CFAC73B49D45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fit4Free-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2BB30462354276D00E21D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4515DD2370C9F70039CF60 /* ViewControllerMuestraDieta.swift in Sources */,
+				FB4515DB2370C9BF0039CF60 /* ViewControllerProfile.swift in Sources */,
+				FB4515D92370C7020039CF60 /* ViewControllerListaDietas.swift in Sources */,
+				F2BB30502354276D00E21D69 /* ExcerciseSelectionViewController.swift in Sources */,
+				F2BB306823545B5600E21D69 /* DifficultyViewController.swift in Sources */,
+				FB4515D72370C6E20039CF60 /* ViewControllerDietas.swift in Sources */,
+				FB4515DF2370CB640039CF60 /* ViewControllerEstadisticas.swift in Sources */,
+				F285BDEC237016CB003FB9E3 /* VideoViewController.swift in Sources */,
+				F2BB306323542A9B00E21D69 /* ExcercisesViewController.swift in Sources */,
+				F285BDEA236FFF7D003FB9E3 /* Database.swift in Sources */,
+				F2BB304E2354276D00E21D69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2BB30512354276D00E21D69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BB30522354276D00E21D69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2BB30592354276E00E21D69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BB305A2354276E00E21D69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2BB305D2354276E00E21D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2BB305E2354276E00E21D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2BB30602354276E00E21D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480F543F6D78BAF7C8342E9D /* Pods-Fit4Free.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2588MD9N23;
+				INFOPLIST_FILE = Fit4Free/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaimeGarza.Fit4Free;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2BB30612354276E00E21D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A3882D8F7F5908B106E3EB /* Pods-Fit4Free.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2588MD9N23;
+				INFOPLIST_FILE = Fit4Free/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaimeGarza.Fit4Free;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2BB30452354276D00E21D69 /* Build configuration list for PBXProject "Fit4Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BB305D2354276E00E21D69 /* Debug */,
+				F2BB305E2354276E00E21D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2BB305F2354276E00E21D69 /* Build configuration list for PBXNativeTarget "Fit4Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BB30602354276E00E21D69 /* Debug */,
+				F2BB30612354276E00E21D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2BB30422354276D00E21D69 /* Project object */;
+}

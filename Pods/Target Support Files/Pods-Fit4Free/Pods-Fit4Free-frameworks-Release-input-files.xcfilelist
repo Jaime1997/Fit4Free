@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Fit4Free/Pods-Fit4Free-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/YouTubePlayer/YouTubePlayer.framework

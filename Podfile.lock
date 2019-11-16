@@ -1,0 +1,26 @@
+PODS:
+  - Realm (3.20.0):
+    - Realm/Headers (= 3.20.0)
+  - Realm/Headers (3.20.0)
+  - RealmSwift (3.20.0):
+    - Realm (= 3.20.0)
+  - YouTubePlayer (0.4.0)
+
+DEPENDENCIES:
+  - RealmSwift
+  - YouTubePlayer
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+    - YouTubePlayer
+
+SPEC CHECKSUMS:
+  Realm: 8b2ca5bc6479a91f379b6b42b5922e396cd5ba5a
+  RealmSwift: 1949ef26a279e1845bd51d591b9103adfcd121df
+  YouTubePlayer: 028451f6772f372d4759866db99824c676ac1473
+
+PODFILE CHECKSUM: d03c023cc0bca07d817e7c8d477820f542b7a6b9
+
+COCOAPODS: 1.8.3

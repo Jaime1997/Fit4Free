@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Titulo</key>
+		<string>Dieta 1</string>
+		<key>Domingo</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.1</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.1</string>
+			<key>DesCal1</key>
+			<integer>154</integer>
+			<key>DesCal2</key>
+			<integer>2</integer>
+			<key>Com1</key>
+			<string>Comida SF1.1</string>
+			<key>Com2</key>
+			<string>Comida SF2.1</string>
+			<key>ComCal1</key>
+			<integer>170</integer>
+			<key>ComCal2</key>
+			<integer>1</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.1</string>
+			<key>Cen2</key>
+			<string>Cena SF2.1</string>
+			<key>CenCal1</key>
+			<integer>190</integer>
+			<key>CenCal2</key>
+			<integer>1</integer>
+		</dict>
+		<key>Lunes</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.2</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.2</string>
+			<key>DesCal1</key>
+			<integer>200</integer>
+			<key>DesCal2</key>
+			<integer>1</integer>
+			<key>Com1</key>
+			<string>Comida SF1.2</string>
+			<key>Com2</key>
+			<string>Comida SF2.2</string>
+			<key>ComCal1</key>
+			<integer>130</integer>
+			<key>ComCal2</key>
+			<integer>2</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.2</string>
+			<key>Cen2</key>
+			<string>Cena SF2.2</string>
+			<key>CenCal1</key>
+			<integer>185</integer>
+			<key>CenCal2</key>
+			<integer>2</integer>
+		</dict>
+		<key>Martes</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.3</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.3</string>
+			<key>DesCal1</key>
+			<integer>210</integer>
+			<key>DesCal2</key>
+			<integer>1</integer>
+			<key>Com1</key>
+			<string>Comida SF1.3</string>
+			<key>Com2</key>
+			<string>Comida SF2.3</string>
+			<key>ComCal1</key>
+			<integer>190</integer>
+			<key>ComCal2</key>
+			<integer>2</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.3</string>
+			<key>Cen2</key>
+			<string>Cena SF2.3</string>
+			<key>CenCal1</key>
+			<integer>170</integer>
+			<key>CenCal2</key>
+			<integer>1</integer>
+		</dict>
+		<key>Miercoles</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.4</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.4</string>
+			<key>DesCal1</key>
+			<integer>120</integer>
+			<key>DesCal2</key>
+			<integer>1</integer>
+			<key>Com1</key>
+			<string>Comida SF1.4</string>
+			<key>Com2</key>
+			<string>Comida SF2.4</string>
+			<key>ComCal1</key>
+			<integer>165</integer>
+			<key>ComCal2</key>
+			<integer>2</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.4</string>
+			<key>Cen2</key>
+			<string>Cena SF2.4</string>
+			<key>CenCal1</key>
+			<integer>175</integer>
+			<key>CenCal2</key>
+			<integer>2</integer>
+		</dict>
+		<key>Jueves</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.5</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.5</string>
+			<key>DesCal1</key>
+			<integer>189</integer>
+			<key>DesCal2</key>
+			<integer>1</integer>
+			<key>Com1</key>
+			<string>Comida SF1.5</string>
+			<key>Com2</key>
+			<string>Comida SF2.5</string>
+			<key>ComCal1</key>
+			<integer>220</integer>
+			<key>ComCal2</key>
+			<integer>1</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.5</string>
+			<key>Cen2</key>
+			<string>Cena SF2.5</string>
+			<key>CenCal1</key>
+			<integer>235</integer>
+			<key>CenCal2</key>
+			<integer>2</integer>
+		</dict>
+		<key>Viernes</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.6</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.6</string>
+			<key>DesCal1</key>
+			<integer>154</integer>
+			<key>DesCal2</key>
+			<integer>2</integer>
+			<key>Com1</key>
+			<string>Comida SF1.6</string>
+			<key>Com2</key>
+			<string>Comida SF2.6</string>
+			<key>ComCal1</key>
+			<integer>170</integer>
+			<key>ComCal2</key>
+			<integer>1</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.6</string>
+			<key>Cen2</key>
+			<string>Cena SF2.6</string>
+			<key>CenCal1</key>
+			<integer>190</integer>
+			<key>CenCal2</key>
+			<integer>1</integer>
+		</dict>
+		<key>Sabado</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.7</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.7</string>
+			<key>DesCal1</key>
+			<integer>201</integer>
+			<key>DesCal2</key>
+			<integer>2</integer>
+			<key>Com1</key>
+			<string>Comida SF1.7</string>
+			<key>Com2</key>
+			<string>Comida SF2.7</string>
+			<key>ComCal1</key>
+			<integer>215</integer>
+			<key>ComCal2</key>
+			<integer>1</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.7</string>
+			<key>Cen2</key>
+			<string>Cena SF2.7</string>
+			<key>CenCal1</key>
+			<integer>170</integer>
+			<key>CenCal2</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<dict>
+		<key>Titulo</key>
+		<string>Dieta 2</string>
+		<key>Domingo</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.1</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.1</string>
+			<key>DesCal1</key>
+			<integer>154</integer>
+			<key>DesCal2</key>
+			<integer>2</integer>
+			<key>Com1</key>
+			<string>Comida SF1.1</string>
+			<key>Com2</key>
+			<string>Comida SF2.1</string>
+			<key>ComCal1</key>
+			<integer>170</integer>
+			<key>ComCal2</key>
+			<integer>1</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.1</string>
+			<key>Cen2</key>
+			<string>Cena SF2.1</string>
+			<key>CenCal1</key>
+			<integer>190</integer>
+			<key>CenCal2</key>
+			<integer>1</integer>
+		</dict>
+		<key>Lunes</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.2</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.2</string>
+			<key>DesCal1</key>
+			<integer>200</integer>
+			<key>DesCal2</key>
+			<integer>1</integer>
+			<key>Com1</key>
+			<string>Comida SF1.2</string>
+			<key>Com2</key>
+			<string>Comida SF2.2</string>
+			<key>ComCal1</key>
+			<integer>130</integer>
+			<key>ComCal2</key>
+			<integer>2</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.2</string>
+			<key>Cen2</key>
+			<string>Cena SF2.2</string>
+			<key>CenCal1</key>
+			<integer>185</integer>
+			<key>CenCal2</key>
+			<integer>2</integer>
+		</dict>
+		<key>Martes</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.3</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.3</string>
+			<key>DesCal1</key>
+			<integer>210</integer>
+			<key>DesCal2</key>
+			<integer>1</integer>
+			<key>Com1</key>
+			<string>Comida SF1.3</string>
+			<key>Com2</key>
+			<string>Comida SF2.3</string>
+			<key>ComCal1</key>
+			<integer>190</integer>
+			<key>ComCal2</key>
+			<integer>2</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.3</string>
+			<key>Cen2</key>
+			<string>Cena SF2.3</string>
+			<key>CenCal1</key>
+			<integer>170</integer>
+			<key>CenCal2</key>
+			<integer>1</integer>
+		</dict>
+		<key>Miercoles</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.4</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.4</string>
+			<key>DesCal1</key>
+			<integer>120</integer>
+			<key>DesCal2</key>
+			<integer>1</integer>
+			<key>Com1</key>
+			<string>Comida SF1.4</string>
+			<key>Com2</key>
+			<string>Comida SF2.4</string>
+			<key>ComCal1</key>
+			<integer>165</integer>
+			<key>ComCal2</key>
+			<integer>2</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.4</string>
+			<key>Cen2</key>
+			<string>Cena SF2.4</string>
+			<key>CenCal1</key>
+			<integer>175</integer>
+			<key>CenCal2</key>
+			<integer>2</integer>
+		</dict>
+		<key>Jueves</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.5</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.5</string>
+			<key>DesCal1</key>
+			<integer>189</integer>
+			<key>DesCal2</key>
+			<integer>1</integer>
+			<key>Com1</key>
+			<string>Comida SF1.5</string>
+			<key>Com2</key>
+			<string>Comida SF2.5</string>
+			<key>ComCal1</key>
+			<integer>220</integer>
+			<key>ComCal2</key>
+			<integer>1</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.5</string>
+			<key>Cen2</key>
+			<string>Cena SF2.5</string>
+			<key>CenCal1</key>
+			<integer>235</integer>
+			<key>CenCal2</key>
+			<integer>2</integer>
+		</dict>
+		<key>Viernes</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.6</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.6</string>
+			<key>DesCal1</key>
+			<integer>154</integer>
+			<key>DesCal2</key>
+			<integer>2</integer>
+			<key>Com1</key>
+			<string>Comida SF1.6</string>
+			<key>Com2</key>
+			<string>Comida SF2.6</string>
+			<key>ComCal1</key>
+			<integer>170</integer>
+			<key>ComCal2</key>
+			<integer>1</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.6</string>
+			<key>Cen2</key>
+			<string>Cena SF2.6</string>
+			<key>CenCal1</key>
+			<integer>190</integer>
+			<key>CenCal2</key>
+			<integer>1</integer>
+		</dict>
+		<key>Sabado</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.7</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.7</string>
+			<key>DesCal1</key>
+			<integer>201</integer>
+			<key>DesCal2</key>
+			<integer>2</integer>
+			<key>Com1</key>
+			<string>Comida SF1.7</string>
+			<key>Com2</key>
+			<string>Comida SF2.7</string>
+			<key>ComCal1</key>
+			<integer>215</integer>
+			<key>ComCal2</key>
+			<integer>1</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.7</string>
+			<key>Cen2</key>
+			<string>Cena SF2.7</string>
+			<key>CenCal1</key>
+			<integer>170</integer>
+			<key>CenCal2</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<dict>
+		<key>Titulo</key>
+		<string>Dieta 3</string>
+		<key>Domingo</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.1</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.1</string>
+			<key>DesCal1</key>
+			<integer>154</integer>
+			<key>DesCal2</key>
+			<integer>2</integer>
+			<key>Com1</key>
+			<string>Comida SF1.1</string>
+			<key>Com2</key>
+			<string>Comida SF2.1</string>
+			<key>ComCal1</key>
+			<integer>170</integer>
+			<key>ComCal2</key>
+			<integer>1</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.1</string>
+			<key>Cen2</key>
+			<string>Cena SF2.1</string>
+			<key>CenCal1</key>
+			<integer>190</integer>
+			<key>CenCal2</key>
+			<integer>1</integer>
+		</dict>
+		<key>Lunes</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.2</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.2</string>
+			<key>DesCal1</key>
+			<integer>200</integer>
+			<key>DesCal2</key>
+			<integer>1</integer>
+			<key>Com1</key>
+			<string>Comida SF1.2</string>
+			<key>Com2</key>
+			<string>Comida SF2.2</string>
+			<key>ComCal1</key>
+			<integer>130</integer>
+			<key>ComCal2</key>
+			<integer>2</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.2</string>
+			<key>Cen2</key>
+			<string>Cena SF2.2</string>
+			<key>CenCal1</key>
+			<integer>185</integer>
+			<key>CenCal2</key>
+			<integer>2</integer>
+		</dict>
+		<key>Martes</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.3</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.3</string>
+			<key>DesCal1</key>
+			<integer>210</integer>
+			<key>DesCal2</key>
+			<integer>1</integer>
+			<key>Com1</key>
+			<string>Comida SF1.3</string>
+			<key>Com2</key>
+			<string>Comida SF2.3</string>
+			<key>ComCal1</key>
+			<integer>190</integer>
+			<key>ComCal2</key>
+			<integer>2</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.3</string>
+			<key>Cen2</key>
+			<string>Cena SF2.3</string>
+			<key>CenCal1</key>
+			<integer>170</integer>
+			<key>CenCal2</key>
+			<integer>1</integer>
+		</dict>
+		<key>Miercoles</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.4</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.4</string>
+			<key>DesCal1</key>
+			<integer>120</integer>
+			<key>DesCal2</key>
+			<integer>1</integer>
+			<key>Com1</key>
+			<string>Comida SF1.4</string>
+			<key>Com2</key>
+			<string>Comida SF2.4</string>
+			<key>ComCal1</key>
+			<integer>165</integer>
+			<key>ComCal2</key>
+			<integer>2</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.4</string>
+			<key>Cen2</key>
+			<string>Cena SF2.4</string>
+			<key>CenCal1</key>
+			<integer>175</integer>
+			<key>CenCal2</key>
+			<integer>2</integer>
+		</dict>
+		<key>Jueves</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.5</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.5</string>
+			<key>DesCal1</key>
+			<integer>189</integer>
+			<key>DesCal2</key>
+			<integer>1</integer>
+			<key>Com1</key>
+			<string>Comida SF1.5</string>
+			<key>Com2</key>
+			<string>Comida SF2.5</string>
+			<key>ComCal1</key>
+			<integer>220</integer>
+			<key>ComCal2</key>
+			<integer>1</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.5</string>
+			<key>Cen2</key>
+			<string>Cena SF2.5</string>
+			<key>CenCal1</key>
+			<integer>235</integer>
+			<key>CenCal2</key>
+			<integer>2</integer>
+		</dict>
+		<key>Viernes</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.6</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.6</string>
+			<key>DesCal1</key>
+			<integer>154</integer>
+			<key>DesCal2</key>
+			<integer>2</integer>
+			<key>Com1</key>
+			<string>Comida SF1.6</string>
+			<key>Com2</key>
+			<string>Comida SF2.6</string>
+			<key>ComCal1</key>
+			<integer>170</integer>
+			<key>ComCal2</key>
+			<integer>1</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.6</string>
+			<key>Cen2</key>
+			<string>Cena SF2.6</string>
+			<key>CenCal1</key>
+			<integer>190</integer>
+			<key>CenCal2</key>
+			<integer>1</integer>
+		</dict>
+		<key>Sabado</key>
+		<dict>
+			<key>Des1</key>
+			<string>Desayuno SF1.7</string>
+			<key>Des2</key>
+			<string>Desayuno SF2.7</string>
+			<key>DesCal1</key>
+			<integer>201</integer>
+			<key>DesCal2</key>
+			<integer>2</integer>
+			<key>Com1</key>
+			<string>Comida SF1.7</string>
+			<key>Com2</key>
+			<string>Comida SF2.7</string>
+			<key>ComCal1</key>
+			<integer>215</integer>
+			<key>ComCal2</key>
+			<integer>1</integer>
+			<key>Cen1</key>
+			<string>Cena SF1.7</string>
+			<key>Cen2</key>
+			<string>Cena SF2.7</string>
+			<key>CenCal1</key>
+			<integer>170</integer>
+			<key>CenCal2</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+</array>
+</plist>
