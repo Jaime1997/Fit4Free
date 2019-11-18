@@ -24,13 +24,13 @@ class ExcerciseSelectionViewController: UITableViewController {
         Realm.AT_remoteRealm{ (remoteRealm, error) in
             if let realm = remoteRealm {
 //                try! realm.write {
-//                    let pushup = Exercise()
-//                    pushup.name = "pushup"
-//                    pushup.bodyPart = "upper_body"
-//                    pushup.difficulty = "intermediate"
-//                    pushup.videoUrl = "https://www.youtube.com/watch?v=IODxDxX7oi4"
-//                    pushup.time = 217
-//                    realm.add(pushup)
+//                    let exercise = Exercise()
+//                    exercise.name = "One arm pushup"
+//                    exercise.bodyPart = "upper_body"
+//                    exercise.difficulty = "advanced"
+//                    exercise.videoUrl = "https://www.youtube.com/watch?v=Tmtq-auc--A"
+//                    exercise.time = 95
+//                    realm.add(exercise)
 //                }
                 let results = realm.objects(Exercise.self).filter("bodyPart = '\(self.bodyPart)' AND difficulty = '\(self.difficulty)'")
                 self.saveArray(tempArray: Array(results))
@@ -73,6 +73,7 @@ class ExcerciseSelectionViewController: UITableViewController {
         
         let destinationVC = segue.destination as! VideoViewController
         destinationVC.url = exercisesArray[selectedRow].videoUrl
+        destinationVC.time = exercisesArray[selectedRow].time
     }
 }
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9iJ-fq-TXC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9iJ-fq-TXC">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -253,31 +253,81 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ysa-5U-2ar" customClass="YouTubePlayerView" customModule="YouTubePlayer">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ysa-5U-2ar" customClass="YouTubePlayerView" customModule="YouTubePlayer">
                                 <rect key="frame" x="16" y="79" width="343" height="229"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.14509803921568626" green="0.12156862745098039" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="nUz-hl-BSR"/>
+                                    <constraint firstAttribute="height" constant="229" id="zLN-Me-oES"/>
+                                </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWa-gl-bfQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWa-gl-bfQ">
                                 <rect key="frame" x="16" y="389" width="343" height="258"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.52549019607843139" green="0.79607843137254897" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="QIU-FB-39S"/>
+                                    <constraint firstAttribute="height" constant="258" id="Vr1-2Q-XfC"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wT-ax-bCA">
+                                <rect key="frame" x="51" y="325" width="135" height="43"/>
+                                <color key="backgroundColor" red="0.52549019607843139" green="0.79607843137254897" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="EiD-Ve-otH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="30"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButtonPressed:" destination="VbB-Bo-pxz" eventType="touchUpInside" id="ocO-0N-jht"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JwE-z9-Mej">
+                                <rect key="frame" x="194" y="325" width="135" height="43"/>
+                                <color key="backgroundColor" red="0.52549019610000003" green="0.79607843140000001" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="dP5-vF-vhq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="30"/>
+                                <state key="normal" title="Stop">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButtonPressed:" destination="VbB-Bo-pxz" eventType="touchUpInside" id="RzE-Mb-qGE"/>
+                                    <action selector="stopButtonPressed:" destination="VbB-Bo-pxz" eventType="touchUpInside" id="1Up-me-ObO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.25098039215686274" green="0.30588235294117649" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ysa-5U-2ar" firstAttribute="top" secondItem="UWh-VN-9us" secondAttribute="top" constant="35" id="3iV-F0-heO"/>
+                            <constraint firstItem="YWa-gl-bfQ" firstAttribute="leading" secondItem="UWh-VN-9us" secondAttribute="leading" constant="16" id="I8J-Jg-IIY"/>
+                            <constraint firstItem="JwE-z9-Mej" firstAttribute="top" secondItem="ysa-5U-2ar" secondAttribute="bottom" constant="17" id="JJJ-ce-cJT"/>
+                            <constraint firstItem="6wT-ax-bCA" firstAttribute="top" secondItem="ysa-5U-2ar" secondAttribute="bottom" constant="17" id="KKE-4z-WS2"/>
+                            <constraint firstItem="UWh-VN-9us" firstAttribute="trailing" secondItem="YWa-gl-bfQ" secondAttribute="trailing" constant="16" id="Lzl-MU-Rbd"/>
+                            <constraint firstItem="YWa-gl-bfQ" firstAttribute="top" secondItem="6wT-ax-bCA" secondAttribute="bottom" constant="21" id="TL5-Tn-xlO"/>
+                            <constraint firstItem="6wT-ax-bCA" firstAttribute="leading" secondItem="UWh-VN-9us" secondAttribute="leading" constant="51" id="cXH-zO-kaF"/>
+                            <constraint firstItem="UWh-VN-9us" firstAttribute="trailing" secondItem="JwE-z9-Mej" secondAttribute="trailing" constant="46" id="eZv-Td-54B"/>
+                            <constraint firstItem="UWh-VN-9us" firstAttribute="trailing" secondItem="ysa-5U-2ar" secondAttribute="trailing" constant="16" id="kMr-Lu-I5z"/>
+                            <constraint firstItem="YWa-gl-bfQ" firstAttribute="top" secondItem="JwE-z9-Mej" secondAttribute="bottom" constant="21" id="kq8-E3-TPB"/>
+                            <constraint firstItem="UWh-VN-9us" firstAttribute="bottom" secondItem="YWa-gl-bfQ" secondAttribute="bottom" constant="20" id="tfk-ID-z1d"/>
+                            <constraint firstItem="ysa-5U-2ar" firstAttribute="leading" secondItem="UWh-VN-9us" secondAttribute="leading" constant="16" id="upf-hD-fLm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="UWh-VN-9us"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ceb-V8-LZ4"/>
                     <connections>
+                        <outlet property="timeLabel" destination="YWa-gl-bfQ" id="3Oi-Ul-dpY"/>
                         <outlet property="videoPlayer" destination="ysa-5U-2ar" id="xe2-b2-fXI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BFy-qV-KbP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3842" y="109"/>
+            <point key="canvasLocation" x="3840.8000000000002" y="108.39580209895054"/>
         </scene>
         <!--View Controller Profile-->
         <scene sceneID="CBf-n9-KfR">
