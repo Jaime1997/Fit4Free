@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9iJ-fq-TXC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9iJ-fq-TXC">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -909,7 +909,7 @@
                             <constraint firstItem="XDj-aY-LRv" firstAttribute="leading" secondItem="jy6-xl-KYh" secondAttribute="trailing" constant="44" id="8j6-Bd-GBR"/>
                             <constraint firstItem="o7U-qZ-l9Z" firstAttribute="leading" secondItem="x7J-th-ibf" secondAttribute="leading" id="9Ry-cB-c91"/>
                             <constraint firstItem="9nq-cK-xtw" firstAttribute="top" secondItem="kOh-k9-OwN" secondAttribute="bottom" constant="8" id="9m8-Sp-BQA"/>
-                            <constraint firstItem="1Tl-cZ-y3B" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="o7U-qZ-l9Z" secondAttribute="trailing" constant="12" id="AJU-Eo-c6p"/>
+                            <constraint firstItem="1Tl-cZ-y3B" firstAttribute="trailing" secondItem="o7U-qZ-l9Z" secondAttribute="trailing" constant="12" id="AJU-Eo-c6p"/>
                             <constraint firstItem="2pe-WL-FCU" firstAttribute="baseline" secondItem="x7J-th-ibf" secondAttribute="baseline" id="AXj-QW-md9"/>
                             <constraint firstItem="SqG-Xp-U3j" firstAttribute="leading" secondItem="1Tl-cZ-y3B" secondAttribute="leading" constant="30" id="BJC-s1-JRo"/>
                             <constraint firstItem="EYi-4X-dtm" firstAttribute="top" secondItem="9nq-cK-xtw" secondAttribute="bottom" constant="8" id="BNw-rk-NRK"/>
