@@ -11,13 +11,15 @@ import UIKit
 
 class ViewControllerListaDietas: UIViewController,UITableViewDataSource, UITableViewDelegate{
     
-    
     var tipoLista:String!
     var MuestraPlist: Int!
+    
+    //var miPath: IndexPath!
     
     @IBOutlet weak var lbTipoDieta: UILabel!
     
     var arrDiccionarios : NSArray!
+    var pasoArray : NSArray!
     
     override func viewDidLoad() {
         self.title = tipoLista
@@ -48,14 +50,20 @@ class ViewControllerListaDietas: UIViewController,UITableViewDataSource, UITable
         
         let dic = arrDiccionarios[indexPath.row] as! NSDictionary
         //titulo solo se lo puse a SugarFree Plist.
-        cell.textLabel?.text = dic["Titulo"] as! String
+        cell.textLabel?.text = dic["Name"] as! String
         
+        //miPath = indexPath
+        pasoArray = dic["Dias"] as! NSArray
         return cell
     }
     
     // MARK: - Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let vistaSig = segue.destination as! ViewControllerMuestraDieta
+        
+        vistaSig.arrDieta = pasoArray
         
     }
 

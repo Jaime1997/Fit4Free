@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3D6CFD6B34FDA1C3876412B8 /* Pods_Fit4Free.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECF9C94E41BD2B939C9532 /* Pods_Fit4Free.framework */; };
 		4AFB02D22384BC330044E964 /* LowCarbs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AFB02D12384BC330044E964 /* LowCarbs.plist */; };
+		4AFB02D42384CEDB0044E964 /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFB02D32384CEDB0044E964 /* NSAttributedStringExtension.swift */; };
 		F285BDEA236FFF7D003FB9E3 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = F285BDE9236FFF7D003FB9E3 /* Database.swift */; };
 		F285BDEC237016CB003FB9E3 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F285BDEB237016CB003FB9E3 /* VideoViewController.swift */; };
 		F2BB304E2354276D00E21D69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB304D2354276D00E21D69 /* AppDelegate.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		480F543F6D78BAF7C8342E9D /* Pods-Fit4Free.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fit4Free.debug.xcconfig"; path = "Target Support Files/Pods-Fit4Free/Pods-Fit4Free.debug.xcconfig"; sourceTree = "<group>"; };
 		4AFB02D12384BC330044E964 /* LowCarbs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = LowCarbs.plist; sourceTree = SOURCE_ROOT; };
+		4AFB02D32384CEDB0044E964 /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
 		4DECF9C94E41BD2B939C9532 /* Pods_Fit4Free.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fit4Free.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A3882D8F7F5908B106E3EB /* Pods-Fit4Free.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fit4Free.release.xcconfig"; path = "Target Support Files/Pods-Fit4Free/Pods-Fit4Free.release.xcconfig"; sourceTree = "<group>"; };
 		F285BDE9236FFF7D003FB9E3 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				F2BB30512354276D00E21D69 /* Main.storyboard */,
+				4AFB02D32384CEDB0044E964 /* NSAttributedStringExtension.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				FB4515DD2370C9F70039CF60 /* ViewControllerMuestraDieta.swift in Sources */,
 				FB4515DB2370C9BF0039CF60 /* ViewControllerProfile.swift in Sources */,
 				FB4515D92370C7020039CF60 /* ViewControllerListaDietas.swift in Sources */,
+				4AFB02D42384CEDB0044E964 /* NSAttributedStringExtension.swift in Sources */,
 				F2BB30502354276D00E21D69 /* ExcerciseSelectionViewController.swift in Sources */,
 				F2BB306823545B5600E21D69 /* DifficultyViewController.swift in Sources */,
 				FB4515D72370C6E20039CF60 /* ViewControllerDietas.swift in Sources */,
