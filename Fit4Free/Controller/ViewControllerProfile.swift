@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewControllerProfile: UIViewController {
+class ViewControllerProfile: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate{
     
     
     @IBOutlet weak var tfBmi: UITextField!
@@ -17,6 +17,7 @@ class ViewControllerProfile: UIViewController {
     @IBOutlet weak var tfSexo: UITextField!
     @IBOutlet weak var tfNombre: UITextField!
     @IBOutlet weak var btEditarFoto: UIButton!
+    @IBOutlet weak var imgFoto: UIImageView!
     
     @IBOutlet weak var Editar: UIBarButtonItem!
     @IBOutlet weak var btChangePic: UIButton!
@@ -56,12 +57,13 @@ class ViewControllerProfile: UIViewController {
             self.btEditarFoto.isEnabled = true
             Editar.title = "Guardar"
         }else if(Editar.title == "Guardar"){
-            var altura:Double = Double(tfAltura.text!)!
-            altura *= altura
-            let peso:Double = Double(tfPeso.text!)!
-            var BMI:Double = peso/altura
-            BMI = Double(round(1000*BMI)/1000)
-            tfBmi.text = "\(BMI)"
+            if var altura:Double = Double(tfAltura.text!){
+                altura *= altura
+                let peso:Double = Double(tfPeso.text!)!
+                var BMI:Double = peso/altura
+                BMI = Double(round(1000*BMI)/1000)
+                tfBmi.text = "\(BMI)"
+            }
             self.tfPeso.isEnabled = false
             self.tfAltura.isEnabled = false
             self.tfSexo.isEnabled = false
@@ -88,7 +90,28 @@ class ViewControllerProfile: UIViewController {
         arreglo.add(tfNombre.text!)
         arreglo.write(toFile: dataFilePath(), atomically: true)
     }
+    @IBAction func imgPicker(_ sender: Any) {
+        if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
+            let picker = UIImagePickerController()
+            picker.delegate = self
+            picker.sourceType = .photoLibrary
+            present(picker, animated: true, completion: nil)
+        }
+        
+    }
     
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        self.dismiss(animated: true, completion: nil)
+        
+    }
+    
+    internal func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        let tempImage:UIImage = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
 
+        imgFoto.image = tempImage
+        
+        self.dismiss(animated: true, completion: nil)
+    }
     
 }
