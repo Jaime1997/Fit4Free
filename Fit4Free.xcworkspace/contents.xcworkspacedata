@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/alumno/Documents/Fit4Free/LowCarbs.plist">
-   </FileRef>
-   <FileRef
       location = "group:Fit4Free.xcodeproj">
    </FileRef>
    <FileRef

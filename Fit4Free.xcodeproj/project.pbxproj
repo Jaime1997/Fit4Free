@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D6CFD6B34FDA1C3876412B8 /* Pods_Fit4Free.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECF9C94E41BD2B939C9532 /* Pods_Fit4Free.framework */; };
+		4AFB02D22384BC330044E964 /* LowCarbs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AFB02D12384BC330044E964 /* LowCarbs.plist */; };
 		F285BDEA236FFF7D003FB9E3 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = F285BDE9236FFF7D003FB9E3 /* Database.swift */; };
 		F285BDEC237016CB003FB9E3 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F285BDEB237016CB003FB9E3 /* VideoViewController.swift */; };
 		F2BB304E2354276D00E21D69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB304D2354276D00E21D69 /* AppDelegate.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		480F543F6D78BAF7C8342E9D /* Pods-Fit4Free.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fit4Free.debug.xcconfig"; path = "Target Support Files/Pods-Fit4Free/Pods-Fit4Free.debug.xcconfig"; sourceTree = "<group>"; };
+		4AFB02D12384BC330044E964 /* LowCarbs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = LowCarbs.plist; sourceTree = SOURCE_ROOT; };
 		4DECF9C94E41BD2B939C9532 /* Pods_Fit4Free.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fit4Free.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A3882D8F7F5908B106E3EB /* Pods-Fit4Free.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fit4Free.release.xcconfig"; path = "Target Support Files/Pods-Fit4Free/Pods-Fit4Free.release.xcconfig"; sourceTree = "<group>"; };
 		F285BDE9236FFF7D003FB9E3 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
@@ -49,8 +51,6 @@
 		FB4515DE2370CB640039CF60 /* ViewControllerEstadisticas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewControllerEstadisticas.swift; path = Fit4Free/Controller/ViewControllerEstadisticas.swift; sourceTree = SOURCE_ROOT; };
 		FBE4B508237EFEEF00B599B2 /* MuscleGain.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MuscleGain.plist; sourceTree = "<group>"; };
 		FBE4B50A237F345300B599B2 /* WeightLoss.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WeightLoss.plist; sourceTree = "<group>"; };
-		FBE4B50E237F3C5300B599B2 /* LowCarbs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = LowCarbs.plist; path = /Users/alumno/Documents/Fit4Free/LowCarbs.plist; sourceTree = "<absolute>"; };
-		FBE4B50F237F3C5C00B599B2 /* LowCarbs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = LowCarbs.plist; path = /Users/alumno/Documents/Fit4Free/LowCarbs.plist; sourceTree = "<absolute>"; };
 		FBE4B510237F3C9A00B599B2 /* SugarFree.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SugarFree.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,11 +78,6 @@
 		F2BB30412354276D00E21D69 = {
 			isa = PBXGroup;
 			children = (
-				FBE4B50E237F3C5300B599B2 /* LowCarbs.plist */,
-				FBE4B510237F3C9A00B599B2 /* SugarFree.plist */,
-				FBE4B50F237F3C5C00B599B2 /* LowCarbs.plist */,
-				FBE4B508237EFEEF00B599B2 /* MuscleGain.plist */,
-				FBE4B50A237F345300B599B2 /* WeightLoss.plist */,
 				F2BB304C2354276D00E21D69 /* Fit4Free */,
 				F2BB304B2354276D00E21D69 /* Products */,
 				8A8034A568ADEB2E0B7C9939 /* Pods */,
@@ -101,6 +96,10 @@
 		F2BB304C2354276D00E21D69 /* Fit4Free */ = {
 			isa = PBXGroup;
 			children = (
+				4AFB02D12384BC330044E964 /* LowCarbs.plist */,
+				FBE4B50A237F345300B599B2 /* WeightLoss.plist */,
+				FBE4B508237EFEEF00B599B2 /* MuscleGain.plist */,
+				FBE4B510237F3C9A00B599B2 /* SugarFree.plist */,
 				F2BB304D2354276D00E21D69 /* AppDelegate.swift */,
 				F2BB306623542ADA00E21D69 /* Model */,
 				F2BB306523542ACC00E21D69 /* View */,
@@ -214,6 +213,7 @@
 			files = (
 				F2BB305B2354276E00E21D69 /* LaunchScreen.storyboard in Resources */,
 				FBE4B511237F3C9A00B599B2 /* SugarFree.plist in Resources */,
+				4AFB02D22384BC330044E964 /* LowCarbs.plist in Resources */,
 				F2BB30582354276E00E21D69 /* Assets.xcassets in Resources */,
 				FBE4B50B237F345300B599B2 /* WeightLoss.plist in Resources */,
 				FBE4B509237EFEEF00B599B2 /* MuscleGain.plist in Resources */,
