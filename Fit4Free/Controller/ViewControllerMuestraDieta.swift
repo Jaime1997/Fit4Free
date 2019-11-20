@@ -12,7 +12,7 @@ class ViewControllerMuestraDieta: UIViewController {
 
     var arrDieta : NSArray!
     var Hoy : NSDictionary!
-    var Base : Int!
+    var Base : Int = 2400
     
     var QuemaDes: Double = 2400 * 0.40
     var QuemaCom: Double = 2400 * 0.30
@@ -78,6 +78,7 @@ class ViewControllerMuestraDieta: UIViewController {
         QuemaDes = Double(Base) * 0.40
         QuemaCom = Double(Base) * 0.30
         QuemaCen = Double(Base) * 0.30
+        actualizaDatos()
         //viewDidLoad()
     }
     
@@ -97,7 +98,51 @@ class ViewControllerMuestraDieta: UIViewController {
         DatoCen2 = Hoy["Cen2"] as! String
         DatoCenCals1001 = Hoy["CenCal1"] as! Int
         DatoCenCals1002 = Hoy["CenCal2"] as! Int
+        actualizaDatos()
         
+    }
+    
+    func actualizaDatos(){
+        lbDia.text = DatoDia
+        
+        lbDes1.text = DatoDes1
+        lbDes2.text = DatoDes2
+        calcula1 = QuemaDes * 0.95
+        calcula2 = QuemaDes * 0.05
+        lbDesCalTot1.text = "\(calcula1!)"
+        lbDesCalTot2.text = "\(calcula2!)"
+        calcula3 = (calcula1 / Double(DatoDesCals1001)) * 100
+        calcula3 = Double(round(1000*calcula3)/1000)
+        calcula4 = (calcula2 / Double(DatoDesCals1002)) * 100
+        calcula4 = Double(round(1000*calcula4)/1000)
+        lbDesCant1.text = "\(calcula3!)"
+        lbDesCant2.text = "\(calcula4!)"
+        
+        lbCom1.text = DatoCom1
+        lbCom2.text = DatoCom2
+        calcula1 = QuemaCom * 0.95
+        calcula2 = QuemaCom * 0.05
+        lbComCalTot1.text = "\(calcula1!)"
+        lbComCalTot2.text = "\(calcula2!)"
+        calcula3 = (calcula1 / Double(DatoComCals1001)) * 100
+        calcula3 = Double(round(1000*calcula3)/1000)
+        calcula4 = (calcula2 / Double(DatoComCals1002)) * 100
+        calcula4 = Double(round(1000*calcula4)/1000)
+        lbComCant1.text = "\(calcula3!)"
+        lbComCant2.text = "\(calcula4!)"
+        
+        lbCen1.text = DatoCen1
+        lbCen2.text = DatoCen2
+        calcula1 = QuemaCen * 0.95
+        calcula2 = QuemaCen * 0.05
+        lbCenCalTot1.text = "\(calcula1!)"
+        lbCenCalTot2.text = "\(calcula2!)"
+        calcula3 = (calcula1 / Double(DatoCenCals1001)) * 100
+        calcula3 = Double(round(1000*calcula3)/1000)
+        calcula4 = (calcula2 / Double(DatoCenCals1002)) * 100
+        calcula4 = Double(round(1000*calcula4)/1000)
+        lbCenCant1.text = "\(calcula3!)"
+        lbCenCant2.text = "\(calcula4!)"
     }
     
     override func viewDidLoad() {
@@ -105,42 +150,7 @@ class ViewControllerMuestraDieta: UIViewController {
         updateTextView()
         
         daySelect(self)
-        setBase(self)
         
-        lbDia.text = DatoDia
-        
-        lbDes1.text = DatoDes1
-        lbDes2.text = DatoDes2
-        calcula1 = QuemaDes * 0.95
-        calcula2 = QuemaDes * 0.05
-        lbDesCalTot1.text = "\(calcula1)"
-        lbDesCalTot2.text = "\(calcula2)"
-        calcula3 = (calcula1 / Double(DatoDesCals1001)) * 100
-        calcula4 = (calcula2 / Double(DatoDesCals1002)) * 100
-        lbDesCant1.text = "\(calcula3)"
-        lbDesCant2.text = "\(calcula4)"
-        
-        lbCom1.text = DatoCom1
-        lbCom2.text = DatoCom2
-        calcula1 = QuemaCom * 0.95
-        calcula2 = QuemaCom * 0.05
-        lbComCalTot1.text = "\(calcula1)"
-        lbComCalTot2.text = "\(calcula2)"
-        calcula3 = (calcula1 / Double(DatoComCals1001)) * 100
-        calcula4 = (calcula2 / Double(DatoComCals1002)) * 100
-        lbComCant1.text = "\(calcula3)"
-        lbComCant2.text = "\(calcula4)"
-        
-        lbCen1.text = DatoCen1
-        lbCen2.text = DatoCen2
-        calcula1 = QuemaCen * 0.95
-        calcula2 = QuemaCen * 0.05
-        lbCenCalTot1.text = "\(calcula1)"
-        lbCenCalTot2.text = "\(calcula2)"
-        calcula3 = (calcula1 / Double(DatoCenCals1001)) * 100
-        calcula4 = (calcula2 / Double(DatoCenCals1002)) * 100
-        lbCenCant1.text = "\(calcula3)"
-        lbCenCant2.text = "\(calcula4)"
     }
     
     func updateTextView(){
